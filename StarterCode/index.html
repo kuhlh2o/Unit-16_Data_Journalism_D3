@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Relationships between Poverty and Lack of Access to Healthcare</h2>
+          <p>The results show an interesting relationship between a State's percentage of population that is classified as in poverty as compared 
+            to the access to healthcare.  The State with the highest degree of access to healthcare as expected, was Massachusetts which passed
+            legislation guaranteeing universal healthcare access.  However, it's interesting to note that even in Massachusetts, over 4.5% of the 
+            population still lacks access to healthcare, so availability doesn't necessairly correlate with usage or delivery.</p>
+
+          <p>For the most part, Southeastern U.S. States, including Alabama, Kentucky, Arkansas, Louisana and Mississippi and West Virginia made up 
+            the States with the highest degree of poverty, but the percentage of their populations that lacked access to healthcare still varied widely, 
+            from Kentucky at 10% to Lousisana at 19%.</p>
+            
+          <p>Texas and Georgia sttod out in thier high degrees of poverty and lack of access to healthcare.  Northeast States, inlcuding New Hampshire, 
+            Maryland, Connecticut and New Jersey, joined by Wyoming, had the lowest degree of poverty, but lack of access to healthcare still variend 
+            from about 9% to more than 15%.  Clearly these are complex issues and many other factors are driving the results.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
